@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: uiregular;
+    src: url(../fonts/segoeui.ttf);
+}
+
+@font-face {
+    font-family: uibold;
+    src: url(../fonts/segoeuib.ttf);
+}
+
+@font-face {
+    font-family: uilight;
+    src: url(../fonts/segoeuil.ttf);
+}
+
+@font-face {
+    font-family: uiblack;
+    src: url(../fonts/seguibl.ttf);
+}
+
+@font-face {
+    font-family: ulsemibold;
+    src: url(../fonts/seguisb.ttf);
+}
+
+@font-face {
+    font-family: uisemilight;
+    src: url(../fonts/segoeuisl.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+a:hober{
+    color: unset;
+}
+
+/* Hero Area */
+
+.heroarea{
+    display: flex;
+    justify-content: center;
+}
+
+.herodiv {
+    width: 386px;
+    height: 151px;
+    background-color: #242424;
+    margin-top: 38px;
+    border-radius: 30px;
+}
+
+.head_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.head_items h1{
+    font-size: 34px;
+    color: #EBEBEB;
+    font-family: uibold;
+}
+
+.herodiv p {
+    font-size: 13px;
+    color: #EBEBEB;
+    font-family: uiregular;
+    padding: 2px 15px;
+}
+
+img.confirm {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/* Footer */
+
+.footerarea {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    background-color: #1C1C1C;
+    width: 216px;
+    height: 51px;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footerbtns img{
+    padding: 10px;
+}
+
